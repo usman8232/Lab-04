@@ -1,26 +1,3 @@
-using System;
-
-class Program
-{
-    static void Main()
-    {
-        Console.Write("Enter first number: ");
-        double num1 = Convert.ToDouble(Console.ReadLine());
-
-        Console.Write("Enter second number: ");
-        double num2 = Convert.ToDouble(Console.ReadLine());
-
-        if (num2 != 0)
-        {
-            double quotient = num1 / num2;
-            Console.WriteLine($"The quotient of {num1} divided by {num2} is {quotient}");
-        }
-        else
-        {
-            Console.WriteLine("Division by zero is not allowed.");
-        }
-    }
-}
 SUBTRACT TWO NUMBERS
 using System;
 
