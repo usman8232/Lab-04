@@ -21,3 +21,21 @@ class Program
         }
     }
 }
+SUBTRACT TWO NUMBERS
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter first number: ");
+        double num1 = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Enter second number: ");
+        double num2 = Convert.ToDouble(Console.ReadLine());
+
+        double difference = num1 - num2;
+
+        Console.WriteLine($"The difference between {num1} and {num2} is {difference}");
+    }
+}
